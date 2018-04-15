@@ -1,0 +1,29 @@
+.trailer-title{
+    position: relative;
+    top: 5vh;
+    width: 100vw;
+    height: 10vh;
+    text-align: center;
+}
+
+.trailer-title h1{
+    font-family: 'Stardos Stencil', cursive;
+    font-size: 4vh;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.trailer-container{
+    height: 25vh;
+    width: 90vw;
+    position: relative;
+    left: 5vw;
+    top: 10vh;
+}
+
+iframe{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}

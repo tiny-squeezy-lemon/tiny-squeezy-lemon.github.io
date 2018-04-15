@@ -1,0 +1,10 @@
+.home-page .home-image{
+    background-image:url(../tinyPictures/0.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: -2vh;
+    left: 0vw;
+    width: 100vw;
+    height: 104.6%;
+}

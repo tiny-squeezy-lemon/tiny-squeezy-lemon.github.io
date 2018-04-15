@@ -1,0 +1,65 @@
+.gallery-container{
+    background: red;
+    height: 126vh;
+    width: 90vw;
+    position: relative;
+    left: 5vw;
+    top: 4vh;
+}
+
+.pict1-container{
+    background: blue;
+    width: 100%;
+    height: 25%;
+    display: flex;
+}
+
+.pict2-container{
+    background: orange;
+    width: 100%;
+    height: 25%;
+}
+
+.pict3-container{
+    background: blue;
+    width: 100%;
+    height: 25%;
+}
+
+.pict4-container{
+    background: orange;
+    width: 100%;
+    height: 25%;
+}
+
+.pict1{
+    background-image: url(../tinyPictures/1.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    position: relative;
+}
+
+.pict2{
+    background-image: url(../tinyPictures/2newvasil.png);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    position: relative;
+}
+
+.pict3{
+    background-image: url(../tinyPictures/ruhrpoxa.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    position: relative;
+}
+
+.pict4{
+    background-image: url(../tinyPictures/4.png);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    position: relative;
+}

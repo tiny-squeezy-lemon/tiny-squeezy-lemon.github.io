@@ -1,0 +1,127 @@
+html, head, body, header, footer, div, span, h1, p{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100vw;
+    height: 40vw;
+}
+
+.wall{
+    position: fixed;
+    background: #fff;
+    width: 100vw;
+    height: 40vw;
+    z-index: 1;
+}
+
+.header-logo{
+    width: 50vw;
+    height: 20vw;
+    float: left;
+    position: fixed;
+    z-index: 1;
+}
+
+.logo{
+    width: 30vw;
+    height: 23vw;
+    background-image:url(../tinyPictures/blacklogo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 2vw;
+    left: 10vw;
+}
+
+/*HAMBURGER*/
+
+.nav-button-container{
+    position: fixed;
+    left: 75vw;
+    height: 20vw;
+    width: 25vw;
+    z-index: 1;
+}
+
+.nav-icon{
+    height: 14vw;
+    width: 14vw;
+    position: fixed;
+    top: 3vw;
+    left: 80vw;
+    z-index: 1;
+}
+
+.lines{
+    height: 1vw;
+    width: 10vw;
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right: 0;
+    margin:auto;
+    background-color: #CD2028;
+    transition:all 0.3s;
+    z-index: 11;
+}
+    
+.lines:before, .lines:after{
+    height: 1vw;
+    width: 10vw;
+    position: absolute;
+    background-color: #000;
+    content:"";
+    transition:all 0.3s;
+}
+    
+.lines:before{
+    top: 2vw;
+}
+
+.lines:after{
+    top: -2vw;
+}
+
+.nav-icon.active .lines:before{
+    top:0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+    
+.nav-icon.active .lines:after{
+    top:0;
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+    
+.nav-icon.active .lines{
+    background:none;
+}
+
+.lower-header{
+    background: #000;
+    width: 100vw;
+    height: 20vw;
+    position: fixed;
+    top: 20vw;
+    left: 0vw;
+    text-align: center;
+    z-index: 1;
+}
+
+.lower-header h1{
+    font-family: 'Stardos Stencil', cursive;
+    display: inline-block;
+    color: #fff;
+    width: 100vw;
+    position: relative;
+    left: 0vw;
+    font-size: 4vh;
+    top: 10vw;
+    transform: translateY(-50%);
+}

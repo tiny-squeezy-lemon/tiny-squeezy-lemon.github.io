@@ -1,0 +1,37 @@
+.nav-menu{
+    background: #000;
+    width: 100vw;
+    height: 35vh;
+    position: fixed;
+    top: -100vw;
+    transition: all 1sec;
+}
+
+.nav-menu.active{
+    background: #000;
+    width: 100vw;
+    height: 35vh;
+    position: fixed;
+    top: 40vw;
+    transition: all 1sec;
+}
+
+.nav-menu a{
+    color: #000;
+    font-family: 'Stardos Stencil', cursive;
+    text-decoration: none;
+    display: block;
+    background: #fff;
+    height: 25%;
+    width: 100vw;
+    border-bottom: 1vh solid #000;
+    text-align: center;
+}
+
+.nav-menu a h1{
+    font-size: 600%;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    
+}

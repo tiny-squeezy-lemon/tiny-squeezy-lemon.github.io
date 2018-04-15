@@ -1,0 +1,47 @@
+.home-page{
+    background: #CD2028;
+    border-bottom: 1vw solid #fff;
+    position: relative;
+    height: 67vh;
+    z-index: -1;
+}
+
+.mission-page{
+    background: #CD2028;
+    border-bottom: 1vw solid #fff;
+    position: relative;
+    height: 67vh;
+    z-index: -1;
+}
+
+.trailer-page{
+    background: #CD2028;
+    border-bottom: 1vw solid #fff;
+    position: relative;
+    height: 67vh;
+    z-index: -1;
+}
+
+.gallery-page{
+    background: #CD2028;
+    border-bottom: 1vw solid #fff;
+    position: relative;
+    height: 67vh;
+    z-index: -1;
+}
+
+.contact-page{
+    background: #CD2028;
+    border-bottom: 1vw solid #fff;
+    position: relative;
+    height: 67vh;
+    z-index: -1;
+}
+
+.page-lift{
+    background: #CD2028;
+    border-bottom: 1vw solid #fff;
+    position: relative;
+    height: 14vh;
+    z-index: -1;
+}
